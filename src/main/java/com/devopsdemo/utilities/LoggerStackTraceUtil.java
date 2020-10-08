@@ -15,7 +15,7 @@ public class LoggerStackTraceUtil {
 	 *         returns the immediate cause
 	 *
 	 * Note this function cannot be made static for thread safety..         
-	 */
+	 **/
 	public String getErrorMessage(Throwable th){ 
 		if (th==null) return ""; 
 		StringBuilder b = new StringBuilder(""); 
